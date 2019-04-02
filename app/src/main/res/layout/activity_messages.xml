@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/homebg"
+    tools:context=".Messages">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+<android.support.v7.widget.RecyclerView
+    android:layout_width="match_parent"
+    android:id="@+id/listmsg"
+    android:layout_height="wrap_content"></android.support.v7.widget.RecyclerView>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <android.support.design.widget.BottomNavigationView
+            android:layout_width="match_parent"
+            android:layout_alignParentBottom="true"
+            app:labelVisibilityMode="labeled"
+            app:itemIconTint="@color/white"
+            app:itemTextColor="@color/white"
+            android:id="@+id/bottmnav"
+            android:background="#de2b2a2a"
+            app:menu="@menu/menu_item"
+            android:layout_height="wrap_content"></android.support.design.widget.BottomNavigationView>
+    </RelativeLayout>
+
+</RelativeLayout>

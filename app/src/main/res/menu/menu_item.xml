@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:title="home"
+        android:id="@+id/hme"
+        android:icon="@drawable/ic_home"
+        />
+
+
+    <item
+        android:title="messeges"
+        android:id="@+id/msge"
+        android:icon="@drawable/messege"
+        />
+
+
+    <item
+        android:title="exam"
+       android:id="@+id/exm"
+        android:icon="@drawable/exxxm"
+        />
+    <item
+        android:title="profile"
+        android:id="@+id/pfil"
+        android:icon="@drawable/useraccount"
+        />
+
+</menu>
